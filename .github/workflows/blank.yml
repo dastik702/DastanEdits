@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DastanEdits — Профессиональный монтаж горизонтальных видео</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Header -->
+  <header class="bg-red-800 text-white py-6">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-bold">Монтаж видео для YouTube, Instagram и рекламы</h1>
+      <p class="mt-2 text-lg">Горизонтальный формат. Динамика. Чистый звук и стиль</p>
+      <a href="#contact" class="mt-4 inline-block bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500">Оставить заявку</a>
+    </div>
+  </header>
+
+  <!-- Portfolio -->
+  <section class="py-12">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">Портфолио</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-4 rounded-lg shadow">
+          <iframe class="w-full h-48" src="https://www.youtube.com/embed/y_FLo7oEuAg" frameborder="0" allowfullscreen></iframe>
+          <p class="mt-2 text-center">Реклама для мужского коуча</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow">
+          <iframe class="w-full h-48" src="https://www.youtube.com/embed/ZmVzLrdcvss" frameborder="0" allowfullscreen></iframe>
+          <p class="mt-2 text-center">Видео для канала о недвижимости</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow">
+          <iframe class="w-full h-48" src="https://www.youtube.com/embed/-k7jHN5a-IA" frameborder="0" allowfullscreen></iframe>
+          <p class="mt-2 text-center">Промо для конференции "Альфа Прокачка Оффлайн 2"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="bg-gray-200 py-12">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">Услуги и цены</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow text-center">
+          <h3 class="text-xl font-semibold">Базовый монтаж</h3>
+          <p class="mt-2">Обрезка, базовая цветокоррекция, музыка. От 5000 сом.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow text-center">
+          <h3 class="text-xl font-semibold">Стандарт</h3>
+          <p class="mt-2">Переходы, текст, легкие эффекты. От 10000 сом.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow text-center">
+          <h3 class="text-xl font-semibold">Премиум</h3>
+          <p class="mt-2">Анимации, спецэффекты, уникальный стиль. От 15000 сом.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-12">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">Связаться со мной</h2>
+      <div class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow">
+        <div>
+          <label class="block text-sm font-medium">Имя</label>
+          <input type="text" class="w-full p-2 border rounded mt-1" placeholder="Ваше имя" />
+        </div>
+        <div class="mt-4">
+          <label class="block text-sm font-medium">Email</label>
+          <input type="email" class="w-full p-2 border rounded mt-1" placeholder="Ваш email" />
+        </div>
+        <div class="mt-4">
+          <label class="block text-sm font-medium">Описание проекта</label>
+          <textarea class="w-full p-2 border rounded mt-1" rows="4" placeholder="Опишите задачу или идею видео"></textarea>
+        </div>
+        <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Отправить</button>
+        <p class="mt-4 text-center">
+          Или напишите напрямую:  
+          <a href="https://t.me/ВАШ_TG_USERNAME" class="text-blue-600">Telegram</a> / 
+          <a href="mailto:ВАШ_EMAIL@domain.com" class="text-blue-600">Email</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white py-6 text-center">
+    <p>© 2025 DastanEdits. Все права защищены.</p>
+  </footer>
+
+</body>
+</html>
